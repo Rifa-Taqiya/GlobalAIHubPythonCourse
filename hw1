@@ -1,3 +1,14 @@
+# NUMBER 1:
+
+mylist=[1,2,3,4,5,6]
+length = len(mylist)
+middle_index = length//2
+first_half = mylist[:middle_index]
+second_half=mylist[middle_index:]
+print(second_half+ first_half)
+
+# NUMBER 2
+
 n=int(input("Enter a one digit number: "))
 for i in range(n+1):
   if i%2==0:
